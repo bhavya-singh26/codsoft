@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 2em;
+    color: #2575fc;
+}
+
+.project p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+#contact a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
